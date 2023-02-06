@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content: space-between;
+    color: #fff;
+    background-color: hwb(239 1% 51%);
+    padding: 1rem 2rem;
+    font-size: small;
+    flex-wrap: inherit !important;
+}
+
+.navbar__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap: 1rem;
+
+}
+.navbar__buttons span:hover{
+    cursor: pointer;
+}
+.logo{
+    width: 100px;
+}
+.p{
+    text-align :right;
+    color:#fff;
+}
+.navbar-brandtext{
+color:#fff;
+}
+
+/* Logo emtech-07 1 */
+
+/*position: absolute;
+width: 347px;
+height: 145px;
+left: 99px;
+top: 2px;
+
+background: url(Logo emtech-07.png);*/
